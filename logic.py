@@ -5,4 +5,3 @@ def decimal_to_binary(num):
 		num //=2
 	return output[::-1]
 
-print(decimal_to_binary(10))
