@@ -15,10 +15,9 @@ from builder import input_
 
 class Decimal_to_BinaryApp(MDApp):
 	def show_dailog(self,title_,text_,button_text):
-		self.output = MDDialog(title = title_,
-								text = text_,
-								buttons=[MDRaisedButton(text=button_text,
-								         on_release = self.pass_screen)] )
+		self.output = MDDialog(title = title_,text = text_,
+				       buttons=[MDRaisedButton(text=button_text,
+				       on_release = self.pass_screen)] )
 		self.output.open()
 
 	def build(self):
